@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Nicholas Swanigan ImageSwapping -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid gradient-bg">
+        <!-- contianer-fluid is bootstrap's full width container and granients-bg lets me pick two colors to set a grandient for -->
+        <div class="spaceformain">
+            <img id="mainimg" class="mainpic" src="Images/camaro.jpeg" alt="camaro">
+        </div>
+        <!-- usieng flex boxes for spacing -->
+        <div class="container">
+            <img id="thumbnail1" onclick="changeImage(this)" class="smallsize" src="Images/camaro.jpeg" alt="camaro">
+            <img id="thumbnail2" onclick="changeImage(this)" class="smallsize" src="Images/NSX.jpg" alt="HondaNSX">
+            <img id="thumbnail3" onclick="changeImage(this)" class="smallsize" src="Images/viper.jpg" alt="viper">
+            <img id="thumbnail4" onclick="changeImage(this)" class="smallsize" src="Images/audi.jpg" alt="Audi TT">
+            <!-- (this) is grabing the whole information about that election and sending it to the changeImage functions -->
+        </div>
+    </div>
+</body>
+
+</html>

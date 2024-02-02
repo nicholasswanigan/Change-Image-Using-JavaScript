@@ -1,0 +1,32 @@
+.smallsize {
+    padding: 1em;
+    max-height: 20vh;
+    max-width: 25%;
+    min-height: 15vh;
+}
+/* small images get 20% */
+.container {
+    height: 20vh;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: end;  
+}
+
+.gradient-bg {
+    background-image: linear-gradient(to bottom, #a50000, #0f0a06);
+    /* bootstrap grandient / pick two colors and a direction */
+}
+
+.spaceformain {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* main image has 80% of the view port */
+.mainpic {
+    width: 80%;
+    min-height: 40vh;
+    max-height: 60vh;
+}
